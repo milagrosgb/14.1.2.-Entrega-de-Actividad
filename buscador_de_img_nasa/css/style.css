@@ -1,0 +1,58 @@
+/* Estilo general del main */
+main {
+  min-height: calc(100vh - 160px);
+}
+
+/* Espaciado para las tarjetas */
+.card {
+  margin: 10px; /* Margen alrededor de cada tarjeta */
+  width: 25rem; /* Ancho fijo para las tarjetas */
+  max-height: 450px; /* Altura máxima para las tarjetas */
+  overflow: hidden; /* Ocultar el desbordamiento */
+}
+
+/* Estilo para las imágenes */
+.card img {
+  width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+  height: 200px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Mantener la relación de aspecto y recortar si es necesario */
+}
+
+/* Estilo para el contenedor de imágenes */
+#contenedor {
+  display: flex; /* Usar flexbox */
+  flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan */
+  justify-content: center; /* Centrar las tarjetas */
+}
+
+/* Estilo para el footer */
+footer {
+  background-color: #f8f9fa; /* Color de fondo del footer */
+  border-top: 1px solid #dee2e6; /* Línea superior del footer */
+  padding: 20px 0; /* Espaciado interno */
+}
+
+/* Estilo para el input de búsqueda */
+#inputBuscar {
+  margin-bottom: 10px; /* Espacio debajo del input */
+}
+
+/* Estilo para el botón de búsqueda */
+#btnBuscar {
+  width: 100%; /* Hacer el botón del ancho completo */
+}
+
+/* Estilo para el texto dentro de la tarjeta */
+.card-body {
+  height: 190px; /* Aumentar la altura para mostrar más texto */
+  overflow: hidden; /* Ocultar texto que desborde */
+}
+
+/* Ajuste de tamaño para el título y descripción */
+.card-title {
+  font-size: 1.2rem; /* Tamaño del título */
+}
+
+.card-text {
+  font-size: 0.9rem; /* Tamaño del texto de descripción */
+}
